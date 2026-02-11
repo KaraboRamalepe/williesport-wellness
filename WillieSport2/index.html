@@ -1,31 +1,32 @@
 <!DOCTYPE html>
-
-<html l<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
 		content="WillieSport is a sport and wellness program focused on youth development and athlete growth.">
-
 	<title>WillieSport & Wellness Management</title>
 
-	<link rel="stylesheet" href="style.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
 
-	<!-- Modern FontAwesome -->
-
+	<!-- FontAwesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
 
 	<!-- NAVBAR -->
-
-	<header class="header">
+	<header class="header" id="home">
 		<nav class="navbar">
 			<h2 class="logo">WillieSport</h2>
 
-			```
 			<!-- Mobile menu button -->
 			<button class="menu-toggle" id="menuToggle">
 				<i class="fa-solid fa-bars"></i>
@@ -41,17 +42,14 @@
 		</nav>
 
 		<!-- HERO -->
-		<div class="hero" id="home">
+		<div class="hero">
 			<h1>Exercise Your Mind & Body</h1>
 			<p>Sport and Wellness Management for Young Athletes</p>
 			<a href="#contact" class="hero-btn">Join Now</a>
 		</div>
-		```
-
 	</header>
 
 	<!-- ABOUT -->
-
 	<section class="about" id="about">
 		<h2>About Us</h2>
 		<p>
@@ -60,7 +58,6 @@
 			wellness.
 		</p>
 
-		```
 		<div class="about-grid">
 			<div class="about-card">
 				<h3>Executive Summary</h3>
@@ -78,33 +75,25 @@
 				<p>Players learn teamwork, leadership, fitness, respect and personal growth during each session.</p>
 			</div>
 		</div>
-		```
-
 	</section>
 
 	<!-- VISION & MISSION -->
-
 	<section class="vision">
 		<div class="vision-box">
 			<h2>Our Vision</h2>
 			<p>To produce outstanding athletes on and off the field while nurturing talent at a young age.</p>
 		</div>
 
-		```
 		<div class="vision-box">
 			<h2>Our Mission</h2>
 			<p>Provide quality coaching and use sport as a tool to positively impact young athletes and society.</p>
 		</div>
-		```
-
 	</section>
 
 	<!-- TEAM -->
-
 	<section class="team" id="team">
 		<h2>Our Team</h2>
 
-		```
 		<div class="team-grid">
 			<div class="team-card">
 				<img src="images/photo7.jpg" alt="">
@@ -124,16 +113,12 @@
 				<p>Trainer</p>
 			</div>
 		</div>
-		```
-
 	</section>
 
 	<!-- PRICING -->
-
 	<section class="pricing" id="pricing">
 		<h2>Our Plans</h2>
 
-		```
 		<div class="pricing-grid">
 			<div class="price-card">
 				<h3>Standard</h3>
@@ -168,16 +153,12 @@
 				</ul>
 			</div>
 		</div>
-		```
-
 	</section>
 
 	<!-- CONTACT -->
-
 	<section class="contact" id="contact">
 		<h2>Contact Us</h2>
 
-		```
 		<form class="contact-form">
 			<input type="text" placeholder="Your Name" required>
 			<input type="email" placeholder="Email Address" required>
@@ -189,12 +170,9 @@
 			<p><i class="fa-solid fa-phone"></i> (+27) 82 047 3649</p>
 			<p><i class="fa-solid fa-location-dot"></i> Pretoria, Gauteng</p>
 		</div>
-		```
-
 	</section>
 
 	<!-- FOOTER -->
-
 	<footer class="footer">
 		<div class="footer-grid">
 			<div>
@@ -207,15 +185,10 @@
 				<p>Website by KGR</p>
 			</div>
 		</div>
-
-		```
 		<p class="copyright">© WillieSport All Rights Reserved</p>
-		```
-
 	</footer>
 
-	<!-- Mobile Menu Script -->
-
+	<!-- MOBILE MENU SCRIPT -->
 	<script>
 		const menuToggle = document.getElementById('menuToggle');
 		const navLinks = document.getElementById('navLinks');
@@ -224,6 +197,12 @@
 			navLinks.classList.toggle('active');
 		});
 	</script>
+
+	<!-- Whatsapp Float -->
+	<a href="https://wa.me/27820473649" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+	</a>
+
 
 </body>
 
